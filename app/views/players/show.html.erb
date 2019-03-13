@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+
+  <strong>Scorepunctuality:</strong>
+  <%= @player.scorepunctuality %>
+
+</p>
+
+<p>
+  <strong>Scorefairplay:</strong>
+  <%= @player.scorefairplay %>
+
+
+</p>
+
+<p>
+  <strong>Birth:</strong>
+  <%= @player.birth %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @player.gender %>
+</p>
+
+<p>
+  <strong>Cellphone:</strong>
+  <%= @player.cellphone %>
+</p>
+
+<%= link_to 'Edit', edit_player_path(@player) %> |
+<%= link_to 'Back', players_path %>

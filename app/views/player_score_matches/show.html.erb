@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Playerqualifier:</strong>
+  <%= @player_score_match.playerqualifier %>
+</p>
+
+<p>
+  <strong>Playerqualified:</strong>
+  <%= @player_score_match.playerqualified %>
+</p>
+
+<p>
+
+  <strong>Scorepunctuality:</strong>
+  <%= @player_score_match.scorepunctuality %>
+
+</p>
+
+<p>
+  <strong>Scorefairplay:</strong>
+  <%= @player_score_match.scorefairplay %>
+</p>
+
+<p>
+<p>
+  <strong>Match:</strong>
+  <%= @player_score_match.match %>
+</p>
+
+<%= link_to 'Edit', edit_player_score_match_path(@player_score_match) %> |
+<%= link_to 'Back', player_score_matches_path %>
